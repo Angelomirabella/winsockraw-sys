@@ -1,0 +1,14 @@
+[package]
+name = "winsockraw-sys"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "FFI bindings to WinSockRaw"
+repository = "https://github.com/Angelomirabella/winsockraw-sys"
+readme = "README.md"
+keywords = ["windows", "sockets"]
+categories = ["external-ffi-bindings"]
+exclude = ["examples", ".git*", "WinSockRaw/LICENSE", "WinSockRaw/README.md"]
+
+[build-dependencies]
+bindgen = "0.63.0"

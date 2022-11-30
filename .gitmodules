@@ -1,0 +1,3 @@
+[submodule "WinSockRaw"]
+	path = WinSockRaw
+	url = ../WinSockRaw
